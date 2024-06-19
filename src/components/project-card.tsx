@@ -7,7 +7,9 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 import Link from "next/link";
+import Markdown from "react-markdown";
 
 interface Props {
   title: string;
@@ -59,8 +61,9 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <img
+          <Image
             src={image}
+            alt={title}
             className="h-40 w-full overflow-hidden object-cover object-top"
           />
         )}
@@ -72,9 +75,9 @@ export function ProjectCard({
           <div className="hidden font-sans text-xs underline print:visible">
             {link?.replace("https://", "").replace("www.", "").replace("/", "")}
           </div>
-          <div className="max-w-full text-pretty font-sans text-xs text-muted-foreground">
+          <Markdown className="prose max-w-full text-pretty font-sans text-xs text-muted-foreground dark:prose-invert">
             {description}
-          </div>
+          </Markdown>
         </div>
       </CardHeader>
       <CardContent className="mt-auto flex flex-col px-2">

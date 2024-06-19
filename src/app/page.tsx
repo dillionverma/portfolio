@@ -1,7 +1,6 @@
 import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { ModeToggle } from "@/components/mode-toggle";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -11,16 +10,17 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { DATA } from "@/data";
+import { DATA } from "@/data/resume";
 import { MailIcon, PhoneIcon } from "lucide-react";
 import Link from "next/link";
+import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
     <>
-      <main className="flex flex-col min-h-[100dvh] space-y-10 py-12 sm:py-24 px-4">
+      <main className="flex flex-col min-h-[100dvh] space-y-10">
         <section id="hero">
           <div className="mx-auto w-full max-w-2xl space-y-8">
             <div className="gap-2 flex justify-between">
@@ -115,9 +115,9 @@ export default function Page() {
             <h2 className="text-xl font-bold">About</h2>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 4}>
-            <p className="text-pretty text-sm text-muted-foreground">
+            <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
               {DATA.summary}
-            </p>
+            </Markdown>
           </BlurFade>
         </section>
         <section id="work">
@@ -278,15 +278,6 @@ export default function Page() {
           </div>
         </section>
       </main>
-      <div className="pointer-events-none fixed inset-x-0 bottom-0 z-50 mx-auto mb-4 flex">
-        <div
-          className={
-            "pointer-events-auto relative mx-auto flex h-full items-center rounded-lg px-0.5 bg-background [box-shadow:0_0_0_1px_rgba(0,0,0,.03),0_2px_4px_rgba(0,0,0,.05),0_12px_24px_rgba(0,0,0,.05)]transform-gpu dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#ffffff1f_inset]"
-          }
-        >
-          <ModeToggle />
-        </div>
-      </div>
     </>
   );
 }
