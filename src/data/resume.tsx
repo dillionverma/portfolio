@@ -11,6 +11,19 @@ export const DATA = {
   summary:
     "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1). I've documented most of the things I learned along the way [here](/notes).",
   avatarUrl: "/me.png",
+  skills: [
+    "React",
+    "Next.js",
+    "Typescript",
+    "Node.js",
+    "Python",
+    "Go",
+    "Postgres",
+    "Docker",
+    "Kubernetes",
+    "Java",
+    "C++",
+  ],
   contact: {
     email: "hello@example.com",
     tel: "+123456789",
@@ -69,7 +82,7 @@ export const DATA = {
       start: "January 2020",
       end: "April 2020",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
     },
     {
       company: "Splunk",
@@ -115,7 +128,7 @@ export const DATA = {
       degree: "s3, s4, sf1, s5",
       logoUrl: "/buildspace.jpg",
       start: "2023",
-      end: "2023",
+      end: "2024",
     },
     {
       school: "University of Waterloo",
@@ -158,6 +171,7 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
+        "Magic UI",
       ],
       links: [
         {
@@ -185,6 +199,7 @@ export const DATA = {
         "TailwindCSS",
         "Stripe",
         "Shadcn UI",
+        "Magic UI",
       ],
       links: [
         {
@@ -215,6 +230,7 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
+        "Magic UI",
         "Stripe",
         "Cloudflare Workers",
       ],
@@ -247,6 +263,7 @@ export const DATA = {
         "Prisma",
         "TailwindCSS",
         "Shadcn UI",
+        "Magic UI",
         "Stripe",
         "Cloudflare Workers",
       ],
