@@ -252,7 +252,7 @@ export const DATA = {
     },
     {
       title: "Windam",
-      href: "https://windam.vercel.app",
+      href: "https://windam.vercel.app/chat",
       dates: "April 2023 - March 2024",
       active: true,
       description:
