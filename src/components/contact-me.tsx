@@ -48,13 +48,13 @@ export function ContactForm() {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="w-5/6 space-y-6">
+      <form onSubmit={form.handleSubmit(onSubmit)} className="md:first:w-5/6 space-y-6">
         <FormField
           control={form.control}
           name="Name"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Name</FormLabel>
+              <FormLabel>Nom</FormLabel>
               <FormControl>
                 <Input className="w-full" placeholder="Mouhamed lamotte" {...field} />
               </FormControl>
