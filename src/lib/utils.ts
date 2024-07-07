@@ -1,5 +1,4 @@
 import { type ClassValue, clsx } from "clsx";
-import { unstable_noStore as noStore } from "next/cache";
 import { twMerge } from "tailwind-merge";
 
 export function cn(...inputs: ClassValue[]) {
@@ -7,7 +6,6 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function formatDate(date: string) {
-  noStore();
   let currentDate = new Date().getTime();
   if (!date.includes("T")) {
     date = `${date}T00:00:00`;

@@ -1,4 +1,5 @@
 import { Icons } from "@/components/icons";
+import { CodeIcon, HomeIcon, NotebookIcon, PencilLine } from "lucide-react";
 
 export const DATA = {
   name: "Dillion Verma",
@@ -24,25 +25,49 @@ export const DATA = {
     "Java",
     "C++",
   ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "#", icon: CodeIcon, label: "Projects" },
+    { href: "#", icon: PencilLine, label: "Notes" },
+  ],
   contact: {
     email: "hello@example.com",
     tel: "+123456789",
     social: {
       GitHub: {
-        url: "https://github.com/dillionverma",
+        name: "GitHub",
+        url: "https://dub.sh/dillion-github",
         icon: Icons.github,
+
+        navbar: true,
       },
       LinkedIn: {
-        url: "https://www.linkedin.com/in/dillionverma/",
+        name: "LinkedIn",
+        url: "https://dub.sh/dillion-linkedin",
         icon: Icons.linkedin,
+
+        navbar: true,
       },
       X: {
-        url: "https://x.com/dillionverma",
+        name: "X",
+        url: "https://dub.sh/dillion-twitter",
         icon: Icons.x,
+
+        navbar: true,
       },
       Youtube: {
-        url: "https://youtube.com/c/dillionverma",
+        name: "Youtube",
+        url: "https://dub.sh/dillion-youtube",
         icon: Icons.youtube,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "#",
+        icon: Icons.email,
+
+        navbar: false,
       },
     },
   },
