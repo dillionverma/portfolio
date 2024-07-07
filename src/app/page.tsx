@@ -150,7 +150,7 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
-            <Button className="self-start" variant="secondary">Voir plus de projets</Button>
+            {/* <Button className="self-start" variant="secondary">Voir plus de projets</Button> */}
           </div>
         </div>
       </section>
