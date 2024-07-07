@@ -188,13 +188,13 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/nexcom.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
       title: "Prompt Master",
-      href: "https://magicui.design",
+      href: "https://promptmaster-sn.vercel.app",
       dates: "Jul 2024 - Jul 2024",
       active: true,
       description:
@@ -224,12 +224,12 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/pmtr.png",
+      video: "",
     },
     {
       title: "Sante de coeur",
-      href: "https://llm.report",
+      href: "https://sante-de-coeur.vercel.app",
       dates: "April 2023 - September 2023",
       active: true,
       description:
@@ -247,12 +247,12 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/sdc.png",
+      video: "",
     },
     {
       title: "Windam",
-      href: "https://automatic.chat",
+      href: "https://windam.vercel.app",
       dates: "April 2023 - March 2024",
       active: true,
       description:
