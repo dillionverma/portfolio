@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "next build && next export && touch out/.nojekyll && git add out && git commit -m 'Deploy' && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.0.4",
