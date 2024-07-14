@@ -48,19 +48,18 @@ export async function getPost(slug: string) {
   };
 }
 
-async function getAllPosts(dir: string) {
+export async function getAllPosts(dir: string) {
   let mdxFiles = getMDXFiles(dir);
-  return Promise.all(
-    mdxFiles.map(async (file) => {
-      let slug = path.basename(file, path.extname(file));
-      let { metadata, source } = await getPost(slug);
-      return {
-        metadata,
-        slug,
-        source,
-      };
-    })
-  );
+  return mdxFiles.map((file) => {
+    let slug = path.basename(file, path.extname(file));
+    const filePath = path.join("content", `${slug}.mdx`);
+    let source = fs.readFileSync(filePath, "utf-8");
+    const { data: metadata } = matter(source);
+    return {
+      metadata,
+      slug,
+    };
+  });
 }
 
 export async function getBlogPosts() {
