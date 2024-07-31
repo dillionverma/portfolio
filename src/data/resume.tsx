@@ -42,8 +42,8 @@ export const DATA = {
     { href: "#codings", icon: CodeXmlIcon, label: "Codings" },
   ],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
+    email: "cmchik21@gmail.com",
+    tel: "+85251386068",
     social: {
       Whatsapp: {
         name: "Whatsapp",
