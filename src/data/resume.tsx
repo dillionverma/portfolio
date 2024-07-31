@@ -161,7 +161,71 @@ export const DATA = {
     },
   ],
   projects: [
-    
+    {
+      title: "Digital Transformation project",
+      href: "http://www.shconrad.com/en/home-english/",
+      dates: "2021 - Present",
+      active: true,
+      description:
+        "A comprehensive digital solution and digital transformation including migrating email service, website development, lokalization, UX/UI design, and digital strategy consulting.",
+      technologies: [
+        "Next.js", "CSS", "wordpress", "sendgrid",
+      ],
+      links: [
+        {
+          type: "Client",
+          href: "https://www.shconrad.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/proj_shconrad.png",
+      video:
+        "",
+    },
+    {
+      title: "eCommerce platform",
+      href: "http://www.medusajs.com/",
+      dates: "2023 - Present",
+      active: true,
+      description:
+        "Develop ecommerce platform for small and medium enterprise using Medusa.js and tailwind CSS, including product management, order management, payment gateway, and more.",
+      technologies: [
+        "Medusa.js",
+        "Tailwind CSS",
+      ],
+      links: [
+        {
+          type: "Medusa Website",
+          href: "https://medusajs.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/proj_medusa.png",
+      video:
+        "",
+    },
+    {
+      title: "Online Booking platform",
+      href: "http://www.naturalyogastudio.com/",
+      dates: "2021 - 2022",
+      active: true,
+      description:
+        "Develop online booking system for small and medium enterprise using typescript and css, including booking, order, payment, and management system.",
+      technologies: [
+        "Typescript",
+        "CSS",
+      ],
+      links: [
+        {
+          type: "Client",
+          href: "https://naturalyogastudio.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/proj_natural.png",
+      video:
+        "",
+    },
     {
       title: "Welab Bank Personal instalment Loan",
       href: "https://www.welab.bank/en/feature/personal_instalment_loan/",
