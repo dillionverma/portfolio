@@ -210,7 +210,7 @@ export const DATA = {
       dates: "2021 - 2022",
       active: true,
       description:
-        "Develop online booking system for small and medium enterprise using typescript and css, including booking, order, payment, and management system.",
+        "Developed online booking system for small and medium enterprise using typescript and css, including booking, order, payment, and management system.",
       technologies: [
         "Typescript",
         "CSS",
