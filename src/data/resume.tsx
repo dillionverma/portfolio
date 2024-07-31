@@ -277,7 +277,7 @@ export const DATA = {
       video: "",
     },
     {
-      title: "MIDAS (車保e-check)",
+      title: "MIDAS(車保e-check)",
       href: "https://www.youtube.com/watch?v=9z9u3SXv7Eg&t=1s",
       dates: "2018",
       active: true,
