@@ -7,7 +7,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
-import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -47,7 +46,7 @@ export function ProjectCard({
       }
     >
       <Link
-        href={href || "#"}
+        href={href ?? "#"}
         className={cn("block cursor-pointer", className)}
       >
         {video && (
@@ -61,7 +60,7 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <Image
+          <img
             src={image}
             alt={title}
             width={500}
