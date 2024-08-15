@@ -162,6 +162,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
     {
       company: "Deiba.org",
       href: "https://deiba.org",
+      logoUrl: "",
       badges: [],
       location: "Remote",
       title: "Webmaster",
