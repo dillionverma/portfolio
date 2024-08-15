@@ -4,13 +4,13 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Ali BEKTASH",
   initials: "DV",
-  url: "https://dillion.io",
+  url: "https://agb.github.io/portfolio/",
   location: "Osaka, Japan",
   locationLink: "https://www.google.com/maps/place/osaka",
   description: "アリと申します。よろしくお願いします。",
   summary:
     "Starting as a designer, then moving on to front-end, back-end, and eventually full-stack development. I even took the leap into entrepreneurship. Now, I'm working as a front-end engineer at a Japanese company in Osaka.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/portfolio/me.png",
   skills: [
     "React",
     "Next.js",
@@ -117,7 +117,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
       badges: [],
       location: "Wakayama, Japan",
       title: "Assistant",
-      logoUrl: "/nisshin-medical-foods.png",
+      logoUrl: "/portfolio/nisshin-medical-foods.png",
       start: "Nov 2019",
       end: "June 2020",
       description:
@@ -129,7 +129,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
       badges: [],
       location: "Smyra, Turkey",
       title: "Founder and Full-stack Engineer",
-      logoUrl: "/simenty.png",
+      logoUrl: "/portfolio/simenty.png",
       start: "June 2015",
       end: "Nov 2018",
       description:
@@ -141,7 +141,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
       badges: [],
       location: "Smyra, Turkey",
       title: "Full-stack Web Developer and Designer",
-      logoUrl: "/jetmenager.png",
+      logoUrl: "/portfolio/jetmenager.png",
       start: "June 2014",
       end: "April 2015",
       description:
@@ -153,7 +153,7 @@ Some customers: Kumamoto City, Miyazaki City, and Okayama
       badges: [],
       location: "Remote",
       title: "Webmaster and Designer",
-      logoUrl: "/bilgius.png",
+      logoUrl: "/portfolio/bilgius.png",
       start: "July 2010 ",
       end: "August 2013",
       description:
