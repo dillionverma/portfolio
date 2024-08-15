@@ -2,182 +2,175 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Dillion Verma",
+  name: "Ali BEKTASH",
   initials: "DV",
   url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
-  description:
-    "Software Engineer turned Entrepreneur. I love building things and helping people. Very active on Twitter.",
+  location: "Osaka, Japan",
+  locationLink: "https://www.google.com/maps/place/osaka",
+  description: "アリと申します。よろしくお願いします。",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Starting as a designer, then moving on to front-end, back-end, and eventually full-stack development. I even took the leap into entrepreneurship. Now, I'm working as a front-end engineer at a Japanese company in Osaka.",
   avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
+    "Angular",
     "Typescript",
-    "Node.js",
-    "Python",
-    "Go",
-    "Postgres",
+    "Web Applications",
+    "UI/UX",
     "Docker",
-    "Kubernetes",
-    "Java",
-    "C++",
+    "AWS",
+    "Tailwind",
+    "jQuery",
+    "PHP",
+    "MySQL",
+    "Photoshop",
+    "Full-Stack Development",
+    "Business Level Japanese",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
-    email: "hello@example.com",
-    tel: "+123456789",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/agb",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://linkedin.com/in/aligokselbektas",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://twitter.com/agokselb",
         icon: Icons.x,
 
         navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
-      email: {
-        name: "Send Email",
-        url: "#",
-        icon: Icons.email,
-
-        navbar: false,
       },
     },
   },
 
   work: [
     {
-      company: "Atomic Finance",
-      href: "https://atomic.finance",
+      company: "Shiftplus Inc.",
+      href: "https://www.shiftplus.co.jp/",
+      badges: [],
+      location: "Osaka, Japan",
+      title: "Front-end Engineer",
+      logoUrl: "/shiftplus.svg",
+      start: "Feb 2022",
+      end: "PRESENT",
+      description: `2022-08 - PRESENT | OTETSUZUKI
+OTETSUZUKI is an application that digitizes an organization or municipality's physical (printed) forms. The organization or municipality can freely fill out the desired form, verify it using the MyNumberCard if they wish, and accept payments through the created form.
+
+　　● I developed advanced form applications with Typescript
+　　● Due to my background as a designer, I fulfilled design needs such as wireframes, logos, and web design when necessary.
+　　● I implemented the front-end part of the listing, filtering, and email sending-receiving pages in the admin panel
+　　● The form creation page is structured similarly to Google Forms and contains quite complex functionalities, which I managed to implement.
+　　● I implemented the search engine (for incoming applications) in the admin panel
+　　● I independently developed the notification page, payment page, help page,
+administrator assignment pages, etc. in the admin panel and public side.
+　　● Fix the bugs
+　　● Implementation of the new feature
+
+Some customers: Osaka City, Kanagawa City, Saison
+
+
+2023-01 - 2023-08 | LGMate
+LGMATE contributes to improving the efficiency of HR personnel, reflecting staff transfer requests and suitability in personnel placement, promoting career development, maintaining and enhancing staff motivation, and ultimately strengthening the organizational capabilities of the local government.
+
+LGMATE for public servants in collaboration with Shintomi Town in Miyazaki Prefecture, Waseda University and Shiftplus Inc.
+
+　　● Design and coding of the simulation, groups, profile etc. pages
+　　● Implementation of the new feature
+　　● Fix the bugs
+
+
+2022-02 - 2022-08 | LGTalk
+LGTALK is an application that enables communication among all team members in municipalities.
+
+　　● I developed a WYSIWYG editor from the plain text section (textarea) of the chat application. I did this independently without using any plugins.
+　　● I fixed some UX/UI problems. For example, I solved some issues in the mobile view.
+
+Some customers: Kumamoto City, Miyazaki City, and Okayama
+`,
+    },
+    {
+      company: "Lancers.jp",
+      badges: [],
+      href: "https://www.lancers.jp",
+      location: "Remote",
+      title: "Full Stack Web Developer and Designer",
+      logoUrl: "/lancers.svg",
+      start: "June 2020",
+      end: "Feb 2022",
+      description: `I have worked as a freelance Full Stack Web Developer and occasionally as a designer. Using my design skills, I have created various logos and interfaces. Leveraging my software expertise, I have participated in more than 20+ projects, both big and small, and successfully completed them.`,
+    },
+    {
+      company: "Nisshin Medical Foods Corporation",
+      href: "https://www.nifs.co.jp/",
+      badges: [],
+      location: "Wakayama, Japan",
+      title: "Assistant",
+      logoUrl: "/nisshin-medical-foods.png",
+      start: "Nov 2019",
+      end: "June 2020",
+      description:
+        "Nissin Medical Foods Corporation, is headquartered in Chiyoda-ku, Tokyo, Japan. The company that provides food services to hospitals, medical facilities, and welfare facilities. My duty is to help prepare a meal-scheduling program.",
+    },
+    {
+      company: "Simenty",
+      href: "https://simenty.com",
+      badges: [],
+      location: "Smyra, Turkey",
+      title: "Founder and Full-stack Engineer",
+      logoUrl: "/simenty.png",
+      start: "June 2015",
+      end: "Nov 2018",
+      description:
+        "Simenty is a software that automatically makes websites mobile-friendly while following responsive design guidelines. We've worked with Türkiye İş Bankası, Turkcell and many small to medium-sized businesses to build a better mobile world wide web. I have sold this startup to İNTEGRAL KALİTE DANIŞMANLIK ve EĞİTİM HİZMETLERİ LTD. ŞTİ. (Based in Istanbul)",
+    },
+    {
+      company: "Jetmenager",
+      href: "https://jetmenajer.com",
+      badges: [],
+      location: "Smyra, Turkey",
+      title: "Full-stack Web Developer and Designer",
+      logoUrl: "/jetmenager.png",
+      start: "June 2014",
+      end: "April 2015",
+      description:
+        "Jetmenager is a social media for athletes that aims to bring professional athletes and clubs together. I worked here as a front-end, back-end and designer.",
+    },
+    {
+      company: "Bilgius",
+      href: "https://bilgius.com",
       badges: [],
       location: "Remote",
-      title: "Bitcoin Protocol Engineer",
-      logoUrl: "/atomic.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Webmaster and Designer",
+      logoUrl: "/bilgius.png",
+      start: "July 2010 ",
+      end: "August 2013",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Bilgius.com is a general-purpose blog site. It was initially designed for sharing general knowledge based on programming courses I attended at university. Additionally, we recently launched a Q&A platform similar to Stack Overflow.",
     },
     {
-      company: "Shopify",
+      company: "Deiba.org",
+      href: "https://deiba.org",
       badges: [],
-      href: "https://shopify.com",
       location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
-    {
-      company: "Nvidia",
-      href: "https://nvidia.com/",
-      badges: [],
-      location: "Santa Clara, CA",
-      title: "Software Engineer",
-      logoUrl: "/nvidia.png",
-      start: "January 2020",
-      end: "April 2020",
-      description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-    },
-    {
-      company: "Splunk",
-      href: "https://splunk.com",
-      badges: [],
-      location: "San Jose, CA",
-      title: "Software Engineer",
-      logoUrl: "/splunk.svg",
-      start: "January 2019",
-      end: "April 2019",
-      description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-    },
-    {
-      company: "Lime",
-      href: "https://li.me/",
-      badges: [],
-      location: "San Francisco, CA",
-      title: "Software Engineer",
-      logoUrl: "/lime.svg",
-      start: "January 2018",
-      end: "April 2018",
-      description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-    },
-    {
-      company: "Mitre Media",
-      href: "https://mitremedia.com/",
-      badges: [],
-      location: "Toronto, ON",
-      title: "Software Engineer",
-      logoUrl: "/mitremedia.png",
-      start: "May 2017",
-      end: "August 2017",
-      description:
-        "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
+      title: "Webmaster",
+      start: "Oct 2007 ",
+      end: "Feb 2009",
+      description: "My firstwebsite.",
     },
   ],
-  education: [
-    {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
-      href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
-    },
-  ],
+  education: [],
   projects: [
     {
       title: "Chat Collect",
