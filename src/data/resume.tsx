@@ -26,9 +26,9 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
     { href: "#", icon: CodeIcon, label: "Projects" },
-    { href: "#", icon: PencilLine, label: "Notes" },
+    // { href: "#", icon: PencilLine, label: "Notes" },
   ],
   contact: {
     email: "mouhamedlamotte.dev@gmail.com",
@@ -50,7 +50,7 @@ export const DATA = {
       },
       X: {
         name: "X",
-        url: "https://twitter.com/mouhamedlamotte",
+        url: "https://x.com/MouhamedLamotly",
         icon: Icons.x,
 
         navbar: true,
@@ -59,7 +59,6 @@ export const DATA = {
         name: "Send Email",
         url: "#",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -184,7 +183,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://nexcom-sn.vercel.com",
+          href: "https://nexcom-sn.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -193,38 +192,25 @@ export const DATA = {
         "",
     },
     {
-      title: "Prompt Master",
-      href: "https://promptmaster-sn.vercel.app",
-      dates: "Jul 2024 - Jul 2024",
+      title: "Jolof taxi",
+      href: "https://joloftaxi.com",
+      dates: "Jul 2024",
       active: true,
       description:
-        "Prompt Master un service de vente de prompt qui permet au client d'acheter des prompts personnalisés.",
+        "Jolof Taxi est un service de transport innovant, alliant confort, fiabilité, et technologie pour offrir des trajets sécurisés et accessibles à tous.",
       technologies: [
         "Next.js",
-        "Flask",
         "Typescript",
-        "PostgreSQL",
         "TailwindCSS",
-        "Shadcn UI",
       ],
       links: [
         {
           type: "Site",
-          href: "https://promptmaster-sn.vercel.app",
+          href: "https://joloftaxi.com",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Frontend",
-          href: "https://github.com/mouhamedlamotte/promptmaster",
-          icon: <Icons.github className="size-3" />,
-        },
-        {
-          type: "Backend",
-          href: "https://github.com/mouhamedlamotte/promptmaster",
-          icon: <Icons.github className="size-3" />,
-        },
       ],
-      image: "/pmtr.png",
+      image: "/jolof-taxi.png",
       video: "",
     },
     {
@@ -252,32 +238,41 @@ export const DATA = {
     },
     {
       title: "Windam",
-      href: "https://windam.vercel.app/chat",
-      dates: "April 2023 - March 2024",
+      href: "https://windampro.vercel.app",
+      dates: "jul 2024 - En Cours",
       active: true,
       description:
-        "Windam est une plateforme de chat qui permet aux utilisateurs de communiquer avec les autres utilisateurs de Windam.",
+        "Windam est une plateforme qui permet de communiquer avec d'autres utilisateurs.",
       technologies: [
         "Next.js",
-        "Firebase",
+        "Django rest framework",
+        "Django channels",
+        "PostgreSQL",
         "TailwindCSS",
-        "Axios",
+        "React Query",
+        "Zustand",
+        "Zod",
       ],
       links: [
         {
           type: "Website",
-          href: "https://windam.vercel.app/chat",
+          href: "https://windampro.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
         {
-          type: "source",
-          href: "https://github.com/mouhamedbaba/windam",
+          type: "Frontend",
+          href: "https://github.com/mouhamedlamotte/windam-v2-frontend",
           icon: <Icons.github className="size-3" />,
         },
+        {
+          type: "Backend",
+          href: "https://github.com/mouhamedlamotte/windam_backend",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
-      image: "",
+      image: "/windam.png",
       video:
-        "https://windam.vercel.app/assets/videos/chat.mp4",
+        "",
     },
   ],
   hackathons: [
