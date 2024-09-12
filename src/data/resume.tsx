@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Engineer (SRE), passionate about bulding ML & AI driven products. I love solving problems and building products that make a difference. find me on twitter.",
   summary:
-    "2024 a wave of AI startups spawned all over the world, I started Sentient Radar mainly to research and learn about agents and hot to 10x knowledge workers. In the past, [I pursued a degree in Electronic Engineering, a Master in Information and Communication Technology and AI & ML training](/#education), [Helped build startups and worked in financial sector companies as an SRE], and [My firs ML hackaton](/#hackathons).",
+    "2024 a wave of AI startups spawned all over the world, I tweet under Sentient Radar mainly to research and learn about agents and hot to improve efficiency of knowledge workers. In the past, [I pursued a degree in Electronic Engineering, a Master in Information and Communication Technology and AI & ML training](/#education), [Helped build startups and worked in financial sector companies as an SRE], and [My first ML hackaton](/#hackathons).",
   avatarUrl: "https://media.licdn.com/dms/image/v2/C4D03AQFffiN3l93H8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655726289562?e=1730937600&v=beta&t=JCE7_qIX1DycwMPldP1KWV6zzXpQDBDV8Bz1773p84U",
   skills: [
     "Python for Data Science",
@@ -163,7 +163,7 @@ export const DATA = {
       description:
         "Developed a prediction model to predict customer satisfaction for passengers in the Shinkansen, 1st runner up",
       image:
-        "https://drive.google.com/file/d/1D8ZxTQVB53vJ6M64jfpiS9_eDkN9li9O/view?usp=drive_link",
+        "https://photos.app.goo.gl/2FjZqVZ7EdArrCf58",
       mlh: "",
       links: [],
     },
