@@ -23,7 +23,7 @@ const Noelspecialplace: React.FC = () => {
     <div>
       {accessGranted ? (
         <>
-          <h1>Welcome to JVEV's World, Noel!</h1>
+          <h1>Welcome to JVEVs World, Noel!</h1>
           <Image 
             src="/eggmobile.jpeg" // Ensure this path is correct
             alt="Join the revolution"
