@@ -206,7 +206,7 @@ export default function Page() {
                 >
                   with a direct question on X
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
+                and I will respond whenever possible. I will ignore all
                 soliciting.
               </p>
             </div>
