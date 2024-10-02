@@ -22,7 +22,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
+                text={`Hi, I'm ${DATA.name.split(" ")[0]} 🚀`}
               />
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
@@ -123,9 +123,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I&apos;ve worked on a variety of projects on my spare time, see below.
                 </p>
               </div>
             </div>
@@ -164,8 +162,7 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I recently participated in a hackathon. It was great to see people
-                  compete towards a common goal and build incredible things in 2-3 days.
+                  hackaton's and other activities.
                 </p>
               </div>
             </div>
@@ -207,7 +204,7 @@ export default function Page() {
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  with a direct question on X
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.

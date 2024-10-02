@@ -3,14 +3,14 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Julian Valbuena",
-  initials: "JV",
+  initials: "https://www.jvev.link/",
   url: "https://jv.io",
   location: "Sydney, AU",
   locationLink: "https://www.google.com/maps/place/sydney",
   description:
-    "Engineer (SRE), passionate about bulding ML & AI driven products. I love solving problems and building products that make a difference. find me on twitter.",
+    "System's Engineer(SRE), I love solving problems and building products that just work, find me on X.",
   summary:
-    "2024 a wave of AI startups spawned all over the world, I tweet under Sentient Radar mainly to research and learn about agents and hot to improve efficiency of knowledge workers. In the past, [I pursued a degree in Electronic Engineering, a Master in Information and Communication Technology and AI & ML training](/#education), [Helped build startups and worked in financial sector companies as an SRE], and [My first ML hackaton](/#hackathons).",
+    "A part from building EKS platforms, I'm interested in AI & ML R&D, mostly for my own **amusement**, I tweet under @Sentient_Radar - Python for DataScience, AI agents. A bit about me [I have a degree in Electronic Engineering, a Master in Information and Communication Technology and AI & ML training](/#education), [Helped build startups and worked in financial sector companies as an SRE], and [My first ML hackaton](/#hackathons).",
   avatarUrl: "https://media.licdn.com/dms/image/v2/C4D03AQFffiN3l93H8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655726289562?e=1730937600&v=beta&t=JCE7_qIX1DycwMPldP1KWV6zzXpQDBDV8Bz1773p84U",
   skills: [
     "Python for Data Science",
@@ -77,7 +77,7 @@ export const DATA = {
       start: "July 2013",
       end: "Current",
       description:
-        "Migrating appliations to the cloud, ensuring cost, reliability, security and performance criteria are met.",
+        "Modernising and migrating apps to EKS, solving performance and reliability issues, optimising for cost.",
     },
     {
       company: "Ninefold",
@@ -98,8 +98,8 @@ export const DATA = {
       location: "Sydney, NSW",
       title: "Infrastructure Engineer",
       logoUrl: "https://nextgen.net/assets/images/Home/nextgen-logo.png",
-      start: "January 2020",
-      end: "April 2020",
+      start: "January 2012",
+      end: "April 2008",
       description:
         "P2V and V2V migrations of applications to private cloud, storage and network engineering.",
     }
@@ -123,8 +123,8 @@ export const DATA = {
     },
     {
       school: "Universidad Pontificia Bolivariana",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
+      href: "https://www.upb.edu.co/es/pregrados/ingenieria-electronica-bucaramanga",
+      degree: "Electronic Engineer",
       logoUrl: "https://www.upb.edu.co/wcs_statics/pp/img/Logo-UPB-2022.svg",
       start: "1996",
       end: "2000",
@@ -148,6 +148,30 @@ export const DATA = {
         {
           type: "Codebase",
           href: "https://github.com/jvalbuena/ollama-local-ui",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Classification Model",
+      href: "https://docs.google.com/presentation/d/e/2PACX-1vSnuusiMWIUSzOTgEyVGHEgzqSEiOYWhFrtJx13F-Ltiz6yFwYSs6X6pVNZZbilV-ScllJ0ll0WiaCK/embed?start=true&loop=false&delayms=3000",
+      dates: "Feb 2024",
+      active: false,
+      description:
+        "Developed a classification model, performed EDA, build a decision trees and Random Forests",
+      technologies: [
+        "RAG",
+        "Python",
+        "Google Colab",
+        "GPU",
+        "PineconeDB"
+      ],
+      links: [
+        {
+          type: "Hackathon Workbook",
+          href: "https://github.com/jvalbuena/ML-notebooks/blob/main/Hackathon_BTTF.ipynb",
           icon: <Icons.globe className="size-3" />,
         },
       ],
