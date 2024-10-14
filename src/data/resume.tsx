@@ -178,6 +178,29 @@ export const DATA = {
       image: "",
       video: "",
     },
+    {
+      title: "CrewAI Helper Crew",
+      href: "https://github.com/jvalbuena/ai",
+      dates: "Oct 2024",
+      active: true,
+      description:
+        "CrewAI multi-agent research crew, runs locally with ollama",
+      technologies: [
+        "CrewAI",
+        "Python",
+        "Serper.dev",
+        "GPU",
+      ],
+      links: [
+        {
+          type: "CrewAI Helper Crew",
+          href: "https://github.com/jvalbuena/ai",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
  ],
   hackathons: [
     {
