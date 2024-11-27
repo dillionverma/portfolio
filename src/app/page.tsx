@@ -220,6 +220,19 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+      {/* <section id="credit">
+        <div className="w-full text-center text-xs text-muted-foreground">
+          Credit to{" "}
+          <a
+            href="https://x.com/dillionverma"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            @dillion
+          </a>{" "}
+          for the sick website template!
+        </div>
+      </section> */}
     </main>
   );
 }
