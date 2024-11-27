@@ -221,7 +221,7 @@ export default function Page() {
         </div>
       </section>
       {/* <section id="credit">
-        <div className="w-full text-center text-xs text-muted-foreground">
+        <div className="w-full text-center text-xs text-muted-foreground mb-12 sm:mb-0">
           Credit to{" "}
           <a
             href="https://x.com/dillionverma"
