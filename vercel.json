@@ -1,0 +1,30 @@
+{
+  "redirects": [
+    {
+      "source": "/resume",
+      "destination": "https://drive.google.com/file/d/1lrejUhNzdgZWHs0ka85Ii6d5j65WzT4P/view?usp=sharing",
+      "permanent": true
+    },
+    {
+      "source": "/github",
+      "destination": "https://github.com/aumvats",
+      "permanent": true
+    },
+    {
+      "source": "/x",
+      "destination": "https://x.com/aumvats",
+      "permanent" : true
+    },
+    {
+      "source": "/linkedin",
+      "destination": "https://linkedin.com/in/aumvats",
+      "permanent" : true
+    },
+    {
+      "source": "/pythonresume",
+      "destination": "https://drive.google.com/file/d/1ECq77Ir1Me4tejVXd0O61XAvPgdKAwYG/view?usp=sharing",
+      "permanent" : true
+    }
+    
+  ]
+}
