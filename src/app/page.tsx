@@ -51,7 +51,7 @@ export default function Page() {
           </Markdown>
           <div className="flex items-center justify-end mt-4">
               <Link
-                href="/resume.pdf"
+                href="/resume2025.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
