@@ -21,7 +21,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "https://medium.com/@aumvats", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "its.aumvats@gmail.com",
@@ -51,14 +51,14 @@ export const DATA = {
         name: "Youtube",
         url: "https://aumvats.com/youtube",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
         url: "mailto:its.aumvats@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
