@@ -231,7 +231,13 @@ export default function Page() {
                   with a direct question on twitter
                 </Link>{""}
                 , and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                soliciting. Or book a  {" "}
+                <Link
+                  href={"https://aumvats.com/cal"}
+                  className="text-blue-500 hover:underline"
+                >
+                  call with me
+                </Link>{""}
               </p>
             </div>
           </BlurFade>
