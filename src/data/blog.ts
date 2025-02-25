@@ -3,6 +3,7 @@ import matter from "gray-matter";
 import path from "path";
 import rehypePrettyCode from "rehype-pretty-code";
 import rehypeStringify from "rehype-stringify";
+import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
 import { unified } from "unified";
@@ -21,6 +22,7 @@ function getMDXFiles(dir: string) {
 export async function markdownToHTML(markdown: string) {
   const p = await unified()
     .use(remarkParse)
+    .use(remarkGfm)
     .use(remarkRehype)
     .use(rehypePrettyCode, {
       // https://rehype-pretty.pages.dev/#usage
@@ -59,7 +61,7 @@ async function getAllPosts(dir: string) {
         slug,
         source,
       };
-    })
+    }),
   );
 }
 
