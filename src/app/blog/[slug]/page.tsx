@@ -19,36 +19,38 @@ export async function generateMetadata({
 }): Promise<Metadata | undefined> {
   let post = await getPost(params.slug);
 
-  let {
-    title,
-    publishedAt: publishedTime,
-    summary: description,
-    image,
-  } = post.metadata;
-  let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
-
-  return {
-    title,
-    description,
-    openGraph: {
+  if(post.source) {
+    let {
+      title,
+      publishedAt: publishedTime,
+      summary: description,
+      image,
+    } = post.metadata;
+    let ogImage = image ? `${DATA.url}${image}` : `${DATA.url}/og?title=${title}`;
+  
+    return {
       title,
       description,
-      type: "article",
-      publishedTime,
-      url: `${DATA.url}/blog/${post.slug}`,
-      images: [
-        {
-          url: ogImage,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description,
-      images: [ogImage],
-    },
-  };
+      openGraph: {
+        title,
+        description,
+        type: "article",
+        publishedTime,
+        url: `${DATA.url}/blog/${post.slug}`,
+        images: [
+          {
+            url: ogImage,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title,
+        description,
+        images: [ogImage],
+      },
+    };
+  }
 }
 
 export default async function Blog({
@@ -60,7 +62,7 @@ export default async function Blog({
 }) {
   let post = await getPost(params.slug);
 
-  if (!post) {
+  if (!post.slug) {
     notFound();
   }
 
