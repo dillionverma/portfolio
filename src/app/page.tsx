@@ -10,6 +10,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { Button } from "@/components/ui/button";
 import { Notebook } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react"
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -243,6 +244,9 @@ export default function Page() {
           </BlurFade>
         </div>
       </section>
+
+      {/* ✅ Add Analytics here to track all page views */}
+      <Analytics />
     </main>
   );
 }
