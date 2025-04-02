@@ -27,7 +27,7 @@
     }
      {
       "source": "/maybeeureka",
-      "destination": "https://aumvats.substack.com/feed",
+      "destination": "https://substack.com/@aumvats",
       "permanent" : true
     }
     
