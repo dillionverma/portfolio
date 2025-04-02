@@ -21,7 +21,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://medium.com/@aumvats", icon: NotebookIcon, label: "Blog" },
+    { href: "https://substack.com/@aumvats", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "its.aumvats@gmail.com",
