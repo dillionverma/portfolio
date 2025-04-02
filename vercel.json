@@ -24,7 +24,7 @@
       "source": "/cal",
       "destination": "https://cal.com/aumvats",
       "permanent" : true
-    }
+    },
      {
       "source": "/maybeeureka",
       "destination": "https://maybeeureka.substack.com",
